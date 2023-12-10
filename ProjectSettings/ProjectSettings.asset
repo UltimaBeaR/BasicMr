@@ -138,7 +138,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1.0
   preloadedAssets:
-  - {fileID: 11400000, guid: 4633fe6b2a9babd4e8636967b98f1fc0, type: 2}
+  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -512,7 +512,9 @@ PlayerSettings:
       m_SubKind: 
   m_BuildTargetBatching: []
   m_BuildTargetShaderSettings: []
-  m_BuildTargetGraphicsJobs: []
+  m_BuildTargetGraphicsJobs:
+  - m_BuildTarget: WindowsStandaloneSupport
+    m_GraphicsJobs: 0
   m_BuildTargetGraphicsJobMode: []
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: iOSSupport
